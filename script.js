@@ -76,7 +76,6 @@ function quiz() {
         let arrInput = document.querySelectorAll("label>input");
         for (let i = 0; i < arrInput.length; i++) {
             if (arrInput[i].checked) {
-
                 answerUser += document.querySelectorAll("label")[i].innerText;
             }
         };
@@ -117,8 +116,6 @@ function quiz() {
             displayPoints();
             start.classList.toggle("startDis");
         }
-
     }
-
 };
 
